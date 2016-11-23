@@ -10,6 +10,8 @@ body {
 
 /* General & 'Reset' Stuff */
 
+
+
 .container {
   width: 90%;
   max-width: 600px;
@@ -58,7 +60,7 @@ header h1 {
 }
 
 header h1:before {
-  content: "./ ";
+  content: "> ";
   font-size: 24px;
 }
 
@@ -74,8 +76,7 @@ header h2 {
   margin: 0;
 }
 
-/* Main Content
-*/
+
 
 #main_content {
   width: 100%;
@@ -123,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
   margin: 0 0 5px 0;
 }
-
+#blackie{text-align: center;}
 dt {
   font-style: italic;
   font-weight: bold;
